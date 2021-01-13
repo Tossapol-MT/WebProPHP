@@ -1,10 +1,22 @@
+
 <html lang="en">
 <body>
     <?php
         for($i = 1 ; $i <= 10 ; $i++){
-            echo $i. '';   
+            echo $i." ";   
         }
     
     ?>
+</body>
+</html>
+
+<html>
+<body>
+<center>
+<?php
+    for()
+?>
+
+</center>
 </body>
 </html>
