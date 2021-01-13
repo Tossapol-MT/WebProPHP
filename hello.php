@@ -6,9 +6,10 @@
 </head>
 
 <body>
-    <h1>Hello</h1>
-    <h2>Prachinburi</h2>
-    <h3>Tossapol</h3>
+    <?php
+        echo"<h1>Hello</h1><br>";
+        echo"<h2>Prachinburi</h2><br>";   
+    ?>
     <a href="content/data.html">link to Data.html</a>
 </body>
 </html>
