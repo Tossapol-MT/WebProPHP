@@ -24,11 +24,7 @@
                 case "/":
                     echo " x / y = ".($x / $y). "<br>";
                     break;
-                }
-
-            
-         
+            }
         ?>
     </body>
 </html>
-
