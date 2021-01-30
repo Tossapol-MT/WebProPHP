@@ -18,7 +18,8 @@
             <input type="submit" name = "submit">
         </form>
 
-        <?php
+    <?php
+    
         if(isset($_GET["submit"])){
 
             $x = $_GET["num1"];
@@ -28,33 +29,33 @@
             
             if($oparator == "Minimum"){
                 if($x < $y && $x < $z){
-                    echo $x;
+                    echo "Minimum Number = ", $x;
                 }
                 else if($y < $x && $y < $z){
-                    echo $y;
+                    echo "Minimum Number = ", $y;
                 }
                 else {
-                    echo $z;
+                    echo "Minimum Number = ", $z;
                 }
             }     
             if($oparator == "Maximum"){
                 if($x > $y && $x > $z){
-                    echo $x;
+                    echo "Maximum Number = ", $x;
                 }
                 else if($y > $x && $y > $z){
-                    echo $y;
+                    echo "Maximum Number = ", $y;
                 }
                 else {
-                    echo $z;
+                    echo "Maximum Number = ", $z;
                 }
             }
 
             if($oparator == "Average"){
-                echo ($x + $y + $z) / 3;
+                echo "Average Number = ", ($x + $y + $z) / 3;
             }
             
-            }
+        }
 
-        ?>
+    ?>
     </body>
 </html>

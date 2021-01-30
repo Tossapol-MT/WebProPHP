@@ -29,41 +29,40 @@
 
         <?php
         if(isset($_GET["submit"])){
-
+            
             $x = $_GET["num1"];
             $y = $_GET["num2"];
             $z = $_GET["num3"];
-            $oparator1 = $_GET["operator1"];
-            $oparator2 = $_GET["operator2"];
+            $operator1 = $_GET["operator1"];
+            $operator2 = $_GET["operator2"];
         
             
-            if($oparator1 == "+"){
+            if($operator1 == "+"){
                $sum1 = $x + $y;
             }
-            else if($oparator1 == "-"){
+            else if($operator1 == "-"){
                 $sum1 = $x - $y;
             }
-            else if($oparator1 == "*"){
+            else if($operator1 == "*"){
                 $sum1 = $x * $y;
             }
-            else if($oparator1 == "/"){
+            else if($operator1 == "/"){
                 $sum1 = $x / $y;
             }
 
-            if($oparator2 == "+"){
+            if($operator2 == "+"){
                 $sum2 = $sum1 + $z;
             }
-            else if($oparator2 == "-"){
+            else if($operator2 == "-"){
                 $sum2 = $sum1 - $z;
             }
-            else if($oparator2 == "*"){
+            else if($operator2 == "*"){
                 $sum2 = $sum1 * $z;
             }
-            else if($oparator2 == "/"){
+            else if($operator2 == "/"){
                 $sum2 = $sum1 / $z;
             }
-            echo "Result = $sum2";
-                
+            echo "Result = $sum2";  
             }
         ?>
     </body>

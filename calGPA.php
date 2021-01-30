@@ -40,9 +40,9 @@
                             <option value=3>B</option>
                             <option value=2.5>C+</option>
                             <option value=2>C</option>
-                            <option value=2>D+</option>
-                            <option value=1.5>D</option>
-                            <option value=1>F</option>
+                            <option value=1.5>D+</option>
+                            <option value=1>D</option>
+                            <option value=0>F</option>
                         </td>
                         
                     </tr>
@@ -61,9 +61,9 @@
                             <option value=3>B</option>
                             <option value=2.5>C+</option>
                             <option value=2>C</option>
-                            <option value=2>D+</option>
-                            <option value=1.5>D</option>
-                            <option value=1>F</option>
+                            <option value=1.5>D+</option>
+                            <option value=1>D</option>
+                            <option value=0>F</option>
                         </td>
                     
                     </tr>
@@ -82,9 +82,9 @@
                             <option value=3>B</option>
                             <option value=2.5>C+</option>
                             <option value=2>C</option>
-                            <option value=2>D+</option>
-                            <option value=1.5>D</option>
-                            <option value=1>F</option>
+                            <option value=1.5>D+</option>
+                            <option value=1>D</option>
+                            <option value=0>F</option>
                         </td>
                         
                     </tr>
@@ -103,9 +103,9 @@
                             <option value=3>B</option>
                             <option value=2.5>C+</option>
                             <option value=2>C</option>
-                            <option value=2>D+</option>
-                            <option value=1.5>D</option>
-                            <option value=1>F</option>
+                            <option value=1.5>D+</option>
+                            <option value=1>D</option>
+                            <option value=0>F</option>
                         </td>
                         
                     </tr>
@@ -124,9 +124,9 @@
                             <option value=3>B</option>
                             <option value=2.5>C+</option>
                             <option value=2>C</option>
-                            <option value=2>D+</option>
-                            <option value=1.5>D</option>
-                            <option value=1>F</option>
+                            <option value=1.5>D+</option>
+                            <option value=1>D</option>
+                            <option value=0>F</option>
                         </td>
                     
                     </tr>   
@@ -220,7 +220,7 @@
                     $GPA /= $Credit;
                 ?>
                     <tr>
-                        <th colspan="4"><center><?php echo "GPA ที่ได้ : ", round ($GPA ,2);?></center></th>
+                        <th colspan="4"><center><?php echo "Your GPA is : ", round ($GPA ,2);?></center></th>
                 
                     </tr>
             </table>
@@ -228,6 +228,6 @@
         <?php 
         }       
         ?>    
-    </body>ฆ
+    </body>
 </html>
 
