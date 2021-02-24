@@ -17,7 +17,7 @@
             Row : <input type="text" name="row" ><br><br>
             Column : <input type="text" name="col" ><br><br>
             Start Num : <input type="number" name="start" ><br><br>
-            End Num : <input type="number" name="end" ><br><br>
+            End Num : <input type="number" name="end" ><br><br> 
             <input type="submit" name="submit" value="Submit">
             <input type="reset" value="Clear">
         </form>
