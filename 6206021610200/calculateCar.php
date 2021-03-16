@@ -86,8 +86,6 @@
                 $sum = $price_down;
             }
 
-
-
             echo "<center>";
             echo "<table border = '1' width = '80%'>";
             echo "<tr>";
@@ -124,20 +122,12 @@
             echo "<tr>";
             echo "<td colspan = '2' align = 'center' ><a href='index.php'><button>กลับไปหน้าแรก</button></a></td>";
             echo "</tr>";
-
             echo "</table>";
         }
         echo "</td>";
         echo "</tr>";
         echo "</table>";
         
-        
-
-
-        
-        
-    
-
     function DownPayment($arr_mc,$price_down,&$total){ //สำหรับคำนวณจำนวนเงินดาวน์ กรณีเลือกเงินดาวน์แบบ %
         global $move;
         $total = $price_down;
@@ -148,20 +138,16 @@
        return $total; 
     }
     
-
-
      function installment($arr_mc , &$total, &$install){ //คำนวณ จำนวนเงินที่ขอสินเชื่อ
         
         $install = $arr_mc - $total;
         return $install;
-
     }
 
     function interestYear($arr_interyear,&$install,&$interyear){ //ดอกเบี้ยต่อปี = จำนวนเงินที่ขอสินเชื่อ * อัตราดอกเบี้ยต่อปี
         $interyear = $install * $arr_interyear;
         return $interyear;
         
-
     }
     
     function interestTotal($term,&$interyear,&$intertotal){ //เพื่อหาดอกเบี้ยทั้งหมด
@@ -176,33 +162,17 @@
 
     }
 
-
-
-
-
-
-
-
     ?>
-
-
-
-
-
-
 
     <script>
         function choose(){
             document.getElementById("check").disabled = false;
             document.getElementById("check1").disabled = true;
-
-
         }
 
         function choose1(){
             document.getElementById("check1").disabled = false;
             document.getElementById("check").disabled = true;
-
         }
 
     </script>
