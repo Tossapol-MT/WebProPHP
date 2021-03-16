@@ -23,7 +23,6 @@
                     <th><center>Subjects</center></th>  
                     <th>Credit</th>  
                     <th>Grade</th>  
-                    
                     </tr>
 
                     <tr>
@@ -44,7 +43,6 @@
                             <option value=1>D</option>
                             <option value=0>F</option>
                         </td>
-                        
                     </tr>
 
                     <tr>
@@ -65,7 +63,6 @@
                             <option value=1>D</option>
                             <option value=0>F</option>
                         </td>
-                    
                     </tr>
 
                     <tr>
@@ -86,7 +83,6 @@
                             <option value=1>D</option>
                             <option value=0>F</option>
                         </td>
-                        
                     </tr>
 
                     <tr>
@@ -107,7 +103,6 @@
                             <option value=1>D</option>
                             <option value=0>F</option>
                         </td>
-                        
                     </tr>
 
                     <tr>
@@ -128,14 +123,12 @@
                             <option value=1>D</option>
                             <option value=0>F</option>
                         </td>
-                    
                     </tr>   
             </form>
         </table>
 
             <input type ="submit" name = "submit">
         </center>
-
         
         <?php
             if(isset($_GET["submit"])){
@@ -156,7 +149,6 @@
                 $credit3 = $_GET['credit3'];
                 $credit4 = $_GET['credit4'];
                 $credit5 = $_GET['credit5'];
-
                 $GPA ;
                 $Credit;
             }
@@ -209,7 +201,6 @@
                     
                 </tr>
                 
-                
                 <?php
                     $GPA = $grade1 * $credit1; $Credit = $credit1;
                     $GPA += $grade2 * $credit2; $Credit += $credit2;
@@ -221,7 +212,6 @@
                 ?>
                     <tr>
                         <th colspan="4"><center><?php echo "Your GPA is : ", round ($GPA ,2);?></center></th>
-                
                     </tr>
             </table>
             </center>
@@ -230,4 +220,3 @@
         ?>    
     </body>
 </html>
-

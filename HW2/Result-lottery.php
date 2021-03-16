@@ -26,15 +26,9 @@
             echo "ยินดีด้วยคุณถูกรางวัล";
             echo "คุณได้เงินรางวัล $reward บาท";
             echo "<br><a href = Lottery.php><button>back</button></a>";
-            echo "<br><br>รางวัล เลขที่ออก คือ : $rand_number";
-         
+            echo "<br><br>รางวัล เลขที่ออก คือ : $rand_number"; 
         }
     }
-
     ?>
-
-
-
-
 </body>
 </html>

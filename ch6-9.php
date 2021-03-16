@@ -14,7 +14,6 @@
                 
                 <input type="submit" name = "submit">
             </form>
-
         <?php
             if(isset($_GET["submit"])){
             
@@ -32,12 +31,9 @@
                     if($found){
                         echo $start." ," ;
                     }
-                $start++;
-                
+                $start++;        
             }    
-            
             echo $start;
-    
         } 
           ?>
     </body>

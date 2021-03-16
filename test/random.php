@@ -15,7 +15,6 @@
 
 <body>
 
-
     <?php
 if(isset($_POST['sub'])){
     $Row = $_POST['row'];
@@ -23,7 +22,6 @@ if(isset($_POST['sub'])){
     $start = $_POST['start'];
     $end = $_POST['end'];
    
-
     // declare function page_header with argument and defualt value
     function page_header($title, $bgcolor = "ffffff")
     {
@@ -44,7 +42,6 @@ if(isset($_POST['sub'])){
         echo '<table align="center" border="1">';
         $sum = 0;
         $count = 0;
-        
 
         for ($r = 1; $r <= $maxRow; $r++) {
             echo '<tr >';
@@ -70,10 +67,6 @@ if(isset($_POST['sub'])){
             echo '</tr>';
             
         }
-
-       
-        
-
 
         echo '</table>';
         if ($maxRow == $maxCol) $message = "This is Square";

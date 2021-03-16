@@ -4,11 +4,13 @@
     <form action="#" method="get">
         <input type="text" name="number">
         <br>
-        <input type="submit" value="check num">
+        <input type="submit" value="check num" name = "submit">
         <br><br>
         
     </form>
+
     <?php
+        if(isset($_GET['submit'])){
         $sum= 0;
         $odd= 0;
         $even = 0;
@@ -28,7 +30,6 @@
         $num = (int) ($num/10);
 
     }
-
         echo "<table border=1>";
         echo "<tr><td>Odd = </td>";
         echo "<td>".$odd."</td>";
@@ -40,6 +41,7 @@
         echo "<td>".$zero."</td>";
         echo "</tr>";
         echo "</table>";
+    }
     ?>
 </body>
 </html>

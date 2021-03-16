@@ -10,24 +10,17 @@
         $column = $_POST['column'];
         $rowMax = intval( $row);
         $colMax = intval( $column);
-        
-
             echo "<table align='center' border='4' width='300'>";
         for($r = 1; $r <= $rowMax ; $r++) { // ใช้สร้างแถว
             echo "<tr>"; // ใช้สร้างแถว
         for($c = 1; $c <= $colMax ; $c++) { //ใช้สร้างคอลัม
             $sum = rand(1,99);
-           
             if ($sum % 2 == 0){
                 echo  "<td align='center'><font color=blue> $sum </font>";
             }
             else if($sum % 2 == 1){
             echo "<td align='center'><font color= red> $sum </font>";
             }
-
-        /*if ($r == $c)
-            echo "<td align='center'><font color='#33ff66'> $r,$c </font></td>";
-        else echo "<td align='center'> $r,$c </td>";*/
         }
             echo "</tr>"; //ใช้ปิดการสร้างแถว
         }

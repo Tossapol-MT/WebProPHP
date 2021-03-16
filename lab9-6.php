@@ -24,7 +24,7 @@
             }
             echo "</tr>";
             for ( $r = 0; $r < $maxRow ; $r++ ) {
-                echo "<tr>";
+                echo "<tr>";                      
                     for ( $c = 0; $c < $maxCol ; $c++ ) {
                         echo "<td width='50' align='center'>" . $month[$r][$c] . "</td>";
                         if($c < $maxCol-1 && $c !=0){

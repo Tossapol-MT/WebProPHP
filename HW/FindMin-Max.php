@@ -19,7 +19,6 @@
         </form>
 
     <?php
-    
         if(isset($_GET["submit"])){
 
             $x = $_GET["num1"];
@@ -49,13 +48,11 @@
                     echo "Maximum Number = ", $z;
                 }
             }
-
             if($oparator == "Average"){
                 echo "Average Number = ", ($x + $y + $z) / 3;
             }
             
         }
-
     ?>
     </body>
 </html>

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- ชื่อไฟล์ : Exam07-01cal.php-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,10 +13,12 @@
             $month = $_GET['month'];
             $year = $_GET['year'];
                 echo "วันที่ $day เดือน $month ปี $year ";
-            if ( checkdate( $month, $day, $year) )
+            if ( checkdate( $month, $day, $year) ){
                 echo " เป็นวันที่มีอยู่จริง";
-            else
+            }
+            else{
                 echo " เป็นวันที่ไม่มีอยู่จริง";
+            }
         }
         else {
             echo "ข้อมูลไม่ครบ";

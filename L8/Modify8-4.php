@@ -29,7 +29,6 @@
         $start = $_POST['start'];
         $end = $_POST['end'];
         
-
         // declare function checker
         function show_checker($row, $col, $bgcolor1, $bgcolor2,$start,$end)
         {
@@ -38,7 +37,6 @@
             $sum = 0;
             $count = 0;
             
-
             for ($r = 1; $r <= $row; $r++) {
                 echo '<tr>';
                 for ($c = 1; $c <= $col; $c++) {
@@ -85,7 +83,7 @@
             echo "Average = ".round($sum/$count,2);
         }
         }
-        show_checker($row, $col, "33ff99", "ffff99",$start,$end);
+        show_checker($row, $col,"33ff99","ffff99",$start,$end);
         ?>
     </body>
 </html> 
