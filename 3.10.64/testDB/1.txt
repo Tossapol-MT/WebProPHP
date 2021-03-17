@@ -1,0 +1,10 @@
+ <?php/*
+    echo "ชื่อฐานข้อมูล";
+    echo "<select name = 'ddl'>";
+    while($row = mysqli_fetch_row($result)){
+        if(($row[0]!="information_schema") && ($row[0]!="mysql")){
+            echo "<option>".$row[0]."</option>";
+        }
+    }
+    echo "</select>";*/
+    ?>
